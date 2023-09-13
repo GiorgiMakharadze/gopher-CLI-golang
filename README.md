@@ -1,9 +1,9 @@
 # go-gopher-cli
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/yourrepositoryname)](https://goreportcard.com/report/github.com/GiorgiMakharadze/gopher-CLI-golang)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repo contains a simple CLI (Command Line Interface) application in Go, with a basic code organization.
-We use:
+I use:
 
 - net/http package to retrieve our cute Gophers
 - Cobra for creating powerful modern CLI applications
@@ -23,12 +23,10 @@ To build the application, use the following command:
 $ make build
 ```
 
-## Test the app
-
 $ ./bin/go-gopher-cli
 Gopher CLI application written in Go.
 
-Usage:
+## Usage:
 go-gopher-cli [command]
 
 Available Commands:
